@@ -37,7 +37,13 @@ def toplu_atis():
             tura_sayisi +=1
     print(f"\nSonuçlar:")
     print(f"{yazi_sayisi} tane Yazı geldi.")
-    print(f"{tura_sayisi} tane Tura geldi.")       
+    print(f"{tura_sayisi} tane Tura geldi.")   
+    if yazi_sayisi > tura_sayisi:
+        print(f"Yazı {yazi_sayisi-tura_sayisi} farkla kazandı.")   
+    elif tura_sayisi > yazi_sayisi:
+        print(f"Tura {tura_sayisi-yazi_sayisi} farkla kazandı") 
+    else:
+        print("Sonuçlar eşit.")
 
 
 while True:

@@ -1,0 +1,7 @@
+var m="yasasın turkmenıstan"
+function foo (parametre){
+  slg=''
+  for(i=0;i<parametre.length;i++){
+    slg=slg+parametre[i]
+     alert(slg)
+}} foo(m)
